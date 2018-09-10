@@ -1,13 +1,5 @@
 
-:root {
-  --navbar-color: #339966;
-  --basic-background-color:#CCFF66;
-  --collapsed-navbar-border-color:#009966;
-  --navbar-font-color:#fff;
-  --corousel-font-color:#fff;
-  --navbar-brand-font-size:20px;
-  --navbar-items-font-size:15px;
-}
+
 
 body {
   padding-bottom: 40px;
@@ -15,7 +7,21 @@ body {
   background-color: var(--basic-background-color);
 }
 
-/*--------------------------------------------------*/
+
+
+
+/* My shit */
+
+:root {
+  --navbar-color: #accf10;
+  --basic-background-color:#fdeb80;
+  --collapsed-navbar-border-color:#009966;
+  --navbar-font-color:#fff;
+  --corousel-font-color:#fff;
+  --navbar-brand-font-size:20px;
+  --navbar-items-font-size:15px;
+}
+
 
 .navbar-inverse .navbar-toggle:hover,
  .navbar-inverse .navbar-toggle:focus {
@@ -61,7 +67,7 @@ body {
   filter: blur(5px);
   -webkit-filter: blur(1px);
 }
-/*--------------------------------------------------*/
+/*End of my shit*/
 
 
 .navbar-wrapper {
