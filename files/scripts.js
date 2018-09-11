@@ -12,7 +12,7 @@ $(function () {
   $("#nav").on("click", "a", function (event) {
     event.preventDefault();
     var id = $(this).attr('href'),
-      top = $(id).offset().top;
+      top = $(id).offset().top-50;
     $('body,html').animate({ scrollTop: top }, 500);
   });
 
