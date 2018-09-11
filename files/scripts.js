@@ -4,7 +4,7 @@ $(function () {
   $('#myCarousel').carousel(
     {
       cycle: true,
-      interval: 1500
+      interval: 2700
     });
   $("[data-fancybox]").fancybox({ loop: true });
   $.fancybox.defaults.animationEffect = "zoom-in-out";
